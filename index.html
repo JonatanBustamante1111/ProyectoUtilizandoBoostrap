@@ -7,9 +7,10 @@
     <title>inicio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
 </head>
 <body class="container-fluid">
-    <nav class="navbar navbar-expand-lg bg-light">
+    <!-- <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">EL GALPON MINERO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,9 +36,27 @@
             </ul>
           </div>
         </div>
+    </nav> -->
+    <nav class="navbar" style="position: fixed"  >
+      <div class="navbar__title">
+          <a href="./index.html">
+              <h1>el galpon minero</h1>
+          </a>
+      </div>
+      <label for="checkbtn"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+      </svg></label>
+      <input type="checkbox"  id="checkbtn">
+      <ul>
+          <li><a href="./index.html" class="activo">inicio</a></li>
+          <li><a href="./assets/">sobre nosotros</a></li>
+          <li><a href="">blog</a></li>
+          <li><a href="">servicio</a></li>
+          <li><a href="../pages/contacto.html">contacto</a></li>
+      </ul>
     </nav>
     <header>
-        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="margin__top" id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="./assets/image/carrusel1.jpg" class="d-block w-100" alt="...">
