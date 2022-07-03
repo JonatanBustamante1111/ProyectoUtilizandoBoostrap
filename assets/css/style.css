@@ -101,14 +101,16 @@
       margin: 0;
       right: 0;
       height: 100px;
-      z-index: 1; }
+      z-index: 1;
+      border: none; }
     .navbar ul {
       width: 55%;
       display: flex;
       flex-direction: row;
       right: 0;
       height: 100px;
-      margin: 0; } }
+      margin: 0;
+      border: none; } }
 
 @media (max-width: 409px) {
   .navbar__title a h1 {
