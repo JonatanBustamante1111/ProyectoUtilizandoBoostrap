@@ -46,7 +46,8 @@
     border-right: 1px solid #9cc9f5;
     border-bottom: 1px solid #9cc9f5;
     display: none;
-    margin-top: 100px; }
+    margin-top: 100px;
+    padding: 15px; }
     .navbar ul li {
       list-style: none;
       font-size: 22px; }
