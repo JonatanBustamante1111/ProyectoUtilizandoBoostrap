@@ -14,7 +14,7 @@
 .text__mobile{
     color: $colorFor;
     font-size: $fontTextMobile;
-    font-weight: 600;
+    font-weight: 400;
 }
 .container__spacing{
     margin: 60px 0;
@@ -29,4 +29,27 @@
 }
 .reverse__color{
     filter:invert(1);
+}
+.title__profits{
+    font-size:$fontTitleMobile;
+    color: $colorThree;
+}
+.text__profits{
+    font-size: $fontTextMobile;
+    color: $colorThree;
+}
+.title__link{
+    font-size: $fontTitleMobile;
+    color: $colorFor;
+}
+.title__link:hover{
+    cursor: pointer;
+}
+.footer__details{
+   background-color: $colorFor;
+   height: 50px; 
+   color: $colorThree;
+   padding: 5px;
+   display: flex;
+   align-items: center;
 }
