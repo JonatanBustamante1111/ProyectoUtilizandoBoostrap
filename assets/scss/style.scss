@@ -1,3 +1,4 @@
+@import "generalPropiertes";
 @import "var";
 @import "nav";
 @import "beforeAfter";
@@ -6,26 +7,36 @@
 @import "reset";
 
 
-// home
+// debo ir a trabajar. cuando vuelva
+// prometo acomodar estas propiedades en las hojas scss/import general propiertes para la 2da pre-entrega final
+
+.title__link:hover{
+    cursor: pointer;
+}
 .title__mobile{
     color: $colorOne;
     font-size: $fontTitleMobile ;
+    font-weight: 800;
 }
 .text__mobile{
     color: $colorFor;
     font-size: $fontTextMobile;
     font-weight: 400;
+    line-height: 2rem;
 }
 .container__spacing{
-    margin: 60px 0;
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
 .element__spacing{
-    margin: 60px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .container__color{
     background-color:$colorOne;
     width: 100%;
     height: 100%;
+    color: $colorThree;
 }
 .reverse__color{
     filter:invert(1);
@@ -41,15 +52,4 @@
 .title__link{
     font-size: $fontTitleMobile;
     color: $colorFor;
-}
-.title__link:hover{
-    cursor: pointer;
-}
-.footer__details{
-   background-color: $colorFor;
-   height: 50px; 
-   color: $colorThree;
-   padding: 5px;
-   display: flex;
-   align-items: center;
 }
