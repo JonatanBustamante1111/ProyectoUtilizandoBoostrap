@@ -1,2 +1,2 @@
-# JonatanBustamante1111.github.io
-Cree un github page de mi proyecto de desarrollo web coderhouse
+# Proyecto Utilizando Boostrap & scss
+desarrolle una pagina web full responsive con boostrap y scss, ademas de npm 
