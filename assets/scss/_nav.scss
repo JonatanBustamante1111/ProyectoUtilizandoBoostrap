@@ -33,7 +33,7 @@
         &:checked + ul {
             background-color: $colorFive;
             display: flex;
-            position: fixed;
+            position: absolute;
             top: 0;
             z-index: 2;
             flex-direction: column;
@@ -48,7 +48,7 @@
         justify-content: flex-start;
         gap: 2rem;
         height: 100vh;
-        width: 90vw;
+        width: 100%;
         border-top: 1px solid $colorTwo;
         border-right: 1px solid $colorTwo;
         border-bottom: 1px solid $colorTwo;
